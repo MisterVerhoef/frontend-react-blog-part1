@@ -1,5 +1,8 @@
-function BlogPost() {
+import posts from "../../constants/data.json";
+import './BlogPost.css'
 
+function BlogPost() {
+    console.log(posts)
     return(
 
         <div className="blog-post">
