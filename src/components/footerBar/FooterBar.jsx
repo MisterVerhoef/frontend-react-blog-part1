@@ -4,7 +4,7 @@ function FooterBar() {
 
     return (
         <footer>
-            <p>Blogventure @ 2023 Ontwikkeld voor Hogeschool Novi</p>
+            <h4>Blogventure @ 2023 Ontwikkeld voor Hogeschool Novi</h4>
         </footer>
     )
 

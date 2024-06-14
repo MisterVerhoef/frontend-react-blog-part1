@@ -8,8 +8,7 @@ function BlogpostSummaryPage() {
     console.log(posts.title)
     return (
         <div>
-            <main>
-            <h1>BlogpostSummaryPage</h1>
+            <h1>Bekijk alle 17 post op het platform</h1>
 
             <ul>
                 {posts.map((post) => (
@@ -22,7 +21,6 @@ function BlogpostSummaryPage() {
 
                 ))}
             </ul>
-            </main>
         </div>
     );
 }

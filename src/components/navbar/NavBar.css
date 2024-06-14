@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    background-color: #2C2F39;
+    color: #FFFFFF;
+    height: 100px;
+}
+
+ header img {
+     width: 200px;
+ }
+
+ Header ul {
+     list-style: none;
+ color:  white;
+ }

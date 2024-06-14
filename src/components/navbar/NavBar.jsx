@@ -1,11 +1,16 @@
 import './NavBar.css'
 import {NavLink} from "react-router-dom";
+import navBarLogo from "../../assets/logo-medium.png";
 
 function NavBar() {
 
     return (
         <header>
+
             <nav>
+                    <span>
+                <img src={navBarLogo}/>
+            </span>
                 <ul>
                     <li>
                         <NavLink to="/">Home</NavLink>

@@ -4,4 +4,12 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #38E991;
+    height: 100px;;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
