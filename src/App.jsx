@@ -7,6 +7,7 @@ import BlogPost from "./pages/blogpost/BlogPost.jsx";
 import ErrorPage from "./pages/errorPage/ErrorPage.jsx";
 import NavBar from "./components/navbar/NavBar.jsx";
 import posts from "./constants/data.json";
+import FooterBar from "./components/footerBar/FooterBar.jsx";
 
 function App() {
     console.log(posts)
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/posts/:id" element={<BlogPost/>} />
                 <Route path="*" element={<ErrorPage/>} />
             </Routes>
+            <FooterBar/>
         </>
     )
 }
