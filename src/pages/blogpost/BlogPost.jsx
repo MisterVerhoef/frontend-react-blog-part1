@@ -1,6 +1,6 @@
 import posts from "../../constants/data.json";
 import './BlogPost.css'
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 function BlogPost() {
     console.log(posts.id)
@@ -11,9 +11,12 @@ function BlogPost() {
     return (
         <div className="blog-post">
                         <h1>{post.title}</h1>
-                        <h3>{post.author}</h3>
-                        <h4>{post.subtitle}</h4>
+                        <h2>{post.subtitle}</h2>
+                        <h4>Geschreven door {post.author} op {post.created}</h4>
+            <p>{post.readTime} minuten lezen</p>
                         <p>{post.content}</p>
+            <p>{post.comments} reacties - {post.shares} gedeeld</p>
+        <Link to="/posts"> Terug naar de overzichtspagina</Link>
         </div>
     );
 }
