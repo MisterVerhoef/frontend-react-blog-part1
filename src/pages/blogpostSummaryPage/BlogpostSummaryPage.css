@@ -17,9 +17,16 @@ main li {
     border: 2px black solid;
     padding: 10px;
     margin: 10px;
+    background-color: #FFFFFF;
 
 }
 
-.summaryPage {
+
+
+.summaryPage  h1{
+   color: #FFFFFF;
+}
+
+main {
     background-color: #50535C;
 }

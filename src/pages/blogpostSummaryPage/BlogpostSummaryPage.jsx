@@ -7,7 +7,7 @@ function BlogpostSummaryPage() {
 
 
     return (
-        <div>
+        <div className="summaryPage">
             <h1>Bekijk alle {posts.length} post op het platform</h1>
 
             <ul>
