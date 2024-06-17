@@ -10,8 +10,8 @@ function CreateBlogPost() {
         const fomattedData = {
             title: formData.title,
             subtitle: formData.subtitle,
-            author: formData.content,
-            content: formData.author,
+            content: formData.content,
+            author: formData.author,
             created_at: new Date().toISOString(),
             readTime: Math.ceil(formData.content.split(" ").length / 100),
             comments: 0,
