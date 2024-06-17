@@ -1,17 +1,33 @@
-header {
+
+
+.nav-container {
+    flex-basis: 1000px;
+    margin: 0 auto;
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: #2C2F39;
-    color: #FFFFFF;
-    height: 100px;
+    border: 2px red dotted;
+
 }
 
- header img {
-     width: 200px;
+
+nav {
+    width: 100%;
+    background-color: #2C2F39;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+nav img {
+  width: 200px;
  }
 
- Header ul {
-     list-style: none;
- color:  white;
- }
+ul {
+    list-style-type: none;
+    flex-basis: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
