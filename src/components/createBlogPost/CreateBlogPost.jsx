@@ -1,10 +1,12 @@
 import "./CreateBlogPost.css"
 import { useForm } from "react-hook-form";
 import { useState } from "react";
+import {useNavigate} from "react-router-dom";
 
 function CreateBlogPost() {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const [data, setData] = useState("");
+    const navigate = useNavigate();
 
     const onSubmit= (formData) => {
         const fomattedData = {
@@ -18,6 +20,7 @@ function CreateBlogPost() {
             shares: 0,
         };
         setData(JSON.stringify(fomattedData));
+        navigate("/")
     };
 
     return (
