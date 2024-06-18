@@ -26,7 +26,7 @@ function CreateBlogPost() {
     return (
         <>
             <h1>Post toevoegen</h1>
-
+            <section className="form-container">
             <form onSubmit={handleSubmit(onSubmit)}>
                 Titel
                 <input {...register("title", {required: true})} />
@@ -48,7 +48,7 @@ function CreateBlogPost() {
                     toevoegen
                 </button>
             </form>
-
+            </section>
             <p>{data}</p>
         </>
     );

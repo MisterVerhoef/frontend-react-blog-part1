@@ -24,7 +24,7 @@ nav img {
   width: 200px;
  }
 
-ul {
+nav ul {
     list-style-type: none;
     flex-basis: 550px;
     display: flex;
