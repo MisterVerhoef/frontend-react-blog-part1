@@ -9,7 +9,7 @@ function CreateBlogPost() {
     const navigate = useNavigate();
 
     const onSubmit= (formData) => {
-        const fomattedData = {
+        const formattedData = {
             title: formData.title,
             subtitle: formData.subtitle,
             content: formData.content,
@@ -19,8 +19,10 @@ function CreateBlogPost() {
             comments: 0,
             shares: 0,
         };
-        setData(JSON.stringify(fomattedData));
-        navigate("/")
+        setData(JSON.stringify(formattedData));
+        console.log('Formatted Data:', formattedData);
+        navigate("/");
+
     };
 
     return (

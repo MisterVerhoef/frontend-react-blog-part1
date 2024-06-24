@@ -38,3 +38,11 @@ nav a {
     color: #FFFFFF;
     list-style-type: none;
 }
+
+.active {
+    text-decoration-line: underline;
+}
+
+.inactive {
+text-decoration-line: none;
+}
